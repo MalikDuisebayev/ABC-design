@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+.container {
+  max-width: 1236px;
+  margin: 0 auto;
+  padding: 0 10px;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.btn {
+  padding: 10px 45px;
+  background: #FF690D;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Exo', sans-serif;
+}
+
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 34px 0;
+}
+
+.header .nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.header .nav__item {
+  margin: 0 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Exo', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+}
+
+.header .preview {
+  background-image: url(../images/index-images/header-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header .preview__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 770px;
+}
+
+.header .preview__box h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 66px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.header .preview__box p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
