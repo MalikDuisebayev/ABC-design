@@ -6,34 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <div class="nav">
+            <div class="header__inner">
                 <img src="./images/index-images/logo.png" alt="Поддоны">
-                <nav>
-                    <ul class="nav__list">
-                        <li><a class="nav__item" href="#">главная</a></li>
-                        <li><a class="nav__item" href="#">услуги</a></li>
-                        <li><a class="nav__item" href="#">О нас</a></li>
-                        <li><a class="nav__item" href="#">Производство</a></li>
-                        <li><a class="nav__item" href="#">контакты</a></li>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li><a class="header__item" href="index.html">главная</a></li>
+                        <li><a class="header__item" href="./pages/services.html">услуги</a></li>
+                        <li><a class="header__item" href="./pages/about.html">О нас</a></li>
+                        <li><a class="header__item" href="./pages/production.html">Производство</a></li>
+                        <li><a class="header__item" href="./pages/contacts.html">контакты</a></li>
                     </ul>
                 </nav>
-                <button class="btn">Скачать кп</button>
+                <button class="btn header__btn">Скачать кп</button>
+                <i class='bx bx-menu burger'></i>
             </div>
         </div>
-        <div class="preview">
+
+        <div class="header__preview">
             <div class="container">
-                <div class="preview__box">
-                    <h1>
+                <div class="header__box">
+                    <h1 class="header__title">
                         Производство паддонов <br>
                         и пиломатериала в Алмате
                     </h1>
-                    <p>
+                    <p class="header__subtitle">
                         Компания «Pallety — Almaty» предлагает услуги по продаже<br>
                         деревянных поддонов/паллет в Алмате, а также всех регионах Казахстана.
                     </p>
@@ -41,11 +44,207 @@
             </div>
         </div>
         <div>
-
         </div>
     </header>
 
+    <main class="main">
+        <section class="materials">
+            <div class="container">
+                <h2 class="title">Мы производим и изготавливаем</h2>
+                <div class="lists materials__inner">
+                    <div class="box materials__box">
+                        <img class="materials__img" src="./images/main-images/materials/main-1.png" alt="">
+                        <h3 class="box__title">Европоддоны</h3>
+                        <div class="materials__info">
+                            <p>Размер: 1200*800 мм</p>
+                            <p>Высота: 130-140 мм</p>
+                        </div>
+                        <button class="btn materials__btn">Купить</button>
+                    </div>
+                    <div class="box materials__box">
+                        <img class="materials__img" src="./images/main-images/materials/main-2.png" alt="">
+                        <h3 class="box__title">Финские поддоны</h3>
+                        <div class="materials__info">
+                            <p>Размер: 1200*800 мм</p>
+                            <p>Высота: 130-140 мм</p>
+                        </div>
+                        <button class="btn materials__btn">Купить</button>
+                    </div>
+                    <div class="box materials__box">
+                        <img class="materials__img" src="./images/main-images/materials/main-3.png" alt="">
+                        <h3 class="box__title">Пиломатериалы</h3>
+                        <div class="materials__info">
+                            <p>Размер: 1200*800 мм</p>
+                            <p>Высота: 130-140 мм</p>
+                        </div>
+                        <button class="btn materials__btn">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="gazebos">
+            <div class="container">
+                <h2 class="title">Беседки из сосны</h2>
+                <div class="lists gazebos__inner">
+                    <div class="box gazebos__box">
+                        <img class="gazebos__img"  src="./images//main-images//gazebos/gazebos-1.jpg" alt="">
+                        <h3 class="box__title  gazebos__title">Радуга</h3>
+                        <div class="gazebos__info">
+                            <p>Размер: 1200*800 мм</p>
+                            <p>Высота: 130-140 мм</p>
+                            <p>Тип: открытая</p>
+                        </div>
+                        <button class="btn gazebos__btn">Купить</button>
+                    </div>
+                    <div class="box gazebos__box">
+                        <img class="gazebos__img" src="./images//main-images//gazebos/gazebos-2.jpg" alt="">
+                        <h3 class="box__title gazebos__title">Радуга</h3>
+                        <div class="gazebos__info ">
+                            <p>Размер: 1200*800 мм</p>
+                            <p>Высота: 130-140 мм</p>
+                            <p>Тип: закрытая</p>
+                        </div>
+                        <button class="btn gazebos__btn">Купить</button>
+                    </div>
+                    <div class="box gazebos__box">
+                        <img class="gazebos__img" src="./images//main-images//gazebos/gazebos-3.jpg" alt="">
+                        <h3 class="box__title gazebos__title">Виктория</h3>
+                        <div class="gazebos__info">
+                            <p>Размер: 1200*800 мм</p>
+                            <p>Высота: 130-140 мм</p>
+                            <p>Тип: открытая</p>
+                        </div>
+                        <button class="btn gazebos__btn">Купить</button>
+                    </div>
+                    <div class="box gazebos__box">
+                        <img class="gazebos__img" src="./images//main-images//gazebos/gazebos-4.jpg" alt="">
+                        <h3 class="box__title gazebos__title">Азалия</h3>
+                        <div class="gazebos__info">
+                            <p>Размер: 1200*800 мм</p>
+                            <p>Высота: 130-140 мм</p>
+                            <p>Тип: открытая</p>
+                        </div>
+                        <button class="btn gazebos__btn">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="form">
+            <div class="container">
+                <h2 class="title form__title">Оставьте заявку, мы вам перезвоним!</h2>
+                <p class="form__subtitle">Чтобы оставить заявку на продукцию, просто заполните форму ниже</p>
+                <form class="form__inner">
+                    <div class="form__item">
+                        <input class="form__input" type="text" placeholder="ИМЯ">
+                        <input class="form__input" type="text" placeholder="+7 (...)">
+                    </div>
+                    <div class="form__item">
+                        <button class="btn form__btn">Оставить заявку</button>
+                        <p class="form__item_subtitle">Менеджер свяжется с вами в ближайшее рабочее время</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="pallety">
+            <div class="container">
+                <div class="pallety__inner inner">
+                    <img class="pallety__img" src="./images//main-images/pallety/pallety-1.jpg" alt="">
+                    <div class="pallety__content">
+                        <h2 class="title">Pallety-Almaty</h2>
+                        <p class="pallety__text">Наша компания работает на рынке производства поддонов и пиломатериала более 5 лет. За это
+                            время мы успели наладить производство не только высококачественных поддонов, но и различных
+                            изделии из древесины. Мы каждый раз совершенствуем свое мастерство и улучшаем качество нашей
+                            продукции. Для оптовых попупателей у нас действует система скидок.
+                            <span>
+                                Мы всегда готовы к взаимовыгодному сотрудничеству!
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <div class="products__top">
+                    <h2 class="title">Наши продукции</h2>
+                    <div>
+                        <button class="products__top_btn">
+                            <img class="products__img" src="./images/main-images/materials/arrow1.png" alt="">
+                        </button>
+                        <button class="products__top_btn">
+                            <img src="./images/main-images/materials/arrow2.png" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="lists products__inner">
+                    <div class="products__box">
+                        <img class="products__img" src="./images/main-images/materials/main-7.png" alt="">
+                        <h3 class="box__title">Европоддоны</h3>
+                        <div class="products__info">
+                            <p>Имеют отличительный знак EUR. Применяется на территории ЕС.</p>
+                        </div>
+                        <button class="btn products__btn">Подробнее</button>
+                    </div>
+                    <div class="products__box">
+                        <img class="products__img" src="./images/main-images/materials/main-6.png" alt="">
+                        <h3 class="box__title">Финские поддоны</h3>
+                        <div class="products__info">
+                            <p>Имеют отличительный знак FIN.
+                                Особые санитарные требования.​</p>
+                        </div>
+                        <button class="btn products__btn">Подробнее</button>
+                    </div>
+                    <div class="products__box">
+                        <img class="products__img" src="./images/main-images/materials/main-5.png" alt="">
+                        <h3 class="box__title">Пиломатериалы</h3>
+                        <div class="products__info">
+                            <p>Изготавливаем полиматериалы
+                                по вашему требованию.​​</p>
+                        </div>
+                        <button class="btn products__btn">Подробнее</button>
+                    </div>
+                    <div class="products__box">
+                        <img class="products__img" src="./images/main-images/materials/main-4.png" alt="">
+                        <h3 class="box__title">Мебель из поддонов</h3>
+                        <div class="products__info">
+                            <p>Эксклюзивное оформление Вашего интерьера.​</p>
+                        </div>
+                        <button class="btn products__btn">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="products__circle">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__inner">
+                    <p>
+                        Адрес: г.Алматы, Илийский тракт, 11
+                    </p>
+                    <p>
+                        Email: info@pallety-almaty.kz
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>Copyright @ Pallety Almaty</p>
+        </div>
+    </footer>
+
+    <script src="script/app.js"></script>
 </body>
 
 </html>
